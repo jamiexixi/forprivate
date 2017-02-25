@@ -85,13 +85,13 @@ function update() {
 
     requestId = null;
 }
+
 function cloneCards(count) {
 
     var main = document.querySelector("main");
-    var xixi = document.querySelector(".buzhidaoneirong");
+    var card = document.querySelector(".buzhidaoneirong");
     
     for (var i = 0; i < count; i++) {
-        main.appendChild( xixi.cloneNode(true), );
+        main.appendChild(card.cloneNode(true));
     }
 }
-
